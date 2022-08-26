@@ -1,0 +1,23 @@
+<nav>
+	<ul>
+		<li><a href="/">Blog</a></li>
+		<li><a href="/projects">Projects</a></li>
+		<li><a href="/about">About</a></li>
+		<li><a href="/contact">Contact</a></li>
+	</ul>
+</nav>
+
+<style>
+	ul {
+		list-style: none;
+		display: flex;
+		gap: 1rem;
+	}
+	a {
+		color: var(--fg0);
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
+	}
+</style>
