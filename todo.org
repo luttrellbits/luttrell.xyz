@@ -1,0 +1,40 @@
+* Inbox
+** TODO layout [0/7]
+- [ ] color pallet
+- [ ] base fonts
+- [ ] base site layout
+- [ ] site header
+- [ ] site footer
+- [ ] site navigation
+** TODO routes [0/5]
+- [ ] landing
+- [ ] blog
+- [ ] projects
+- [ ] about
+- [ ] contact
+** TODO blog [0/3]
+- [ ] pages [0/2]
+  - [ ] all categories page
+  - [ ] single categories pages
+- [ ] components [0/5]
+  - [ ] comments
+  - [ ] categories list
+  - [ ] post toc
+  - [ ] post footer
+  - [ ] post header
+- [ ] blog api endpoint [0/2]
+  - [ ] blog post pagination
+  - [ ] rss
+** TODO projects [0/3]
+- [ ] pages [0/2]
+  - [ ] all tags
+  - [ ] single tag
+- [ ] components [0/4]
+  - [ ] project header
+  - [ ] project footer
+  - [ ] tag list
+  - [ ] source links
+- [ ] projects api endpoint
+  - [ ] projects pagination
+** TODO contact [0/1]
+- [ ] contact form
