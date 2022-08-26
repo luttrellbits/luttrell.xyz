@@ -1,10 +1,14 @@
 <script>
 	import 'normalize.css';
+	import Header from '../lib/components/header.svelte';
+	import Footer from '../lib/components/footer.svelte';
 </script>
 
+<Header />
 <main>
 	<slot />
 </main>
+<Footer />
 
 <style global>
 	:root {
