@@ -1,12 +1,15 @@
 * Inbox
-** TODO layout [5/7]
+** TODO layout [3/7]
 - [X] color pallet
 - [X] normalize.css
 - [ ] base fonts
 - [ ] base site layout
-- [X] site header
-- [X] site footer
-- [X] site navigation
+- [-] site header
+- [ ] site footer [0/1]
+  - [ ] Add navigation
+- [X] site navigation [2/2]
+  - [X] responsive
+  - [X] style current page link
 ** TODO routes [2/5]
 - [X] landing
 - [ ] blog
