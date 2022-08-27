@@ -7,13 +7,13 @@
 - [X] site header
 - [X] site footer
 - [X] site navigation
-** TODO routes [0/5]
-- [ ] landing
+** TODO routes [2/5]
+- [X] landing
 - [ ] blog
 - [ ] projects
-- [ ] about
+- [X] about
 - [ ] contact
-** TODO blog [0/5]
+** TODO blog [1/4]
 - [ ] pages [0/2]
   - [ ] all categories page
   - [ ] single categories pages
@@ -26,7 +26,7 @@
 - [ ] blog api endpoint [0/2]
   - [ ] blog post pagination
   - [ ] rss
-- [ ] add mdsvx
+- [X] add mdsvx
 ** TODO projects [0/3]
 - [ ] pages [0/2]
   - [ ] all tags
