@@ -1,3 +1,8 @@
+<script>
+	import { page } from '$app/stores';
+	console.log($page);
+</script>
+
 <nav>
 	<input type="checkbox" id="check-btn" />
 	<label for="check-btn">
@@ -7,8 +12,10 @@
 	</label>
 
 	<ul>
-		<li><a href="/">Home</a></li>
-		<li><a href="/about">About</a></li>
+		<!-- Works for now. Will probably change when I add navigation to the footer.   -->
+
+		<li><a href="/" class:active={$page.url.pathname === '/'}>Home</a></li>
+		<li><a href="/about" class:active={$page.url.pathname === '/about'}>About</a></li>
 	</ul>
 </nav>
 
@@ -35,6 +42,10 @@
 		text-decoration: none;
 	}
 	a:hover {
+		text-decoration: underline;
+	}
+	a.active {
+		color: var(--blue);
 		text-decoration: underline;
 	}
 
