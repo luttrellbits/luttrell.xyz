@@ -37,10 +37,18 @@
 	a:hover {
 		text-decoration: underline;
 	}
+
+	/* dont want to display the checkbox */
+	/* the checkbox's checked state toggles
+	/when its coresponding label is clicked.
+	/ our label looks like a hamburger button
+	/in this case. */
+
 	input {
 		display: none;
 	}
 
+	/* Show the nav links when checkbox is checked */
 	input:checked ~ ul {
 		max-height: var(--height);
 	}
@@ -54,6 +62,7 @@
 		opacity: 0;
 	}
 
+	/* hamburger button*/
 	label {
 		background-color: var(--bg3);
 		border-radius: 3px;
@@ -74,6 +83,7 @@
 		transition: transform 0.3s, opacity 0.3s;
 	}
 
+	/* Hides the hamberger button and shows nav menu on big screens */
 	@media screen and (min-width: 360px) {
 		ul {
 			flex-direction: row;
