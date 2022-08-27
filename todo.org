@@ -16,6 +16,16 @@
 - [ ] projects
 - [X] about
 - [ ] contact
+** TODO landing page [0/2]
+- [ ] add sections [0/4]
+  - [ ] services
+  - [ ] projects
+  - [ ] contact
+- [ ] add styles
+** TODO about page [0/3]
+- [ ] add about me copy
+- [ ] add about site copy
+- [ ] add styles
 ** TODO blog [1/4]
 - [ ] pages [0/2]
   - [ ] all categories page

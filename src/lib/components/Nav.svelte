@@ -94,7 +94,7 @@
 		transition: transform 0.3s, opacity 0.3s;
 	}
 
-	/* Hides the hamberger button and shows nav menu on big screens */
+	/* Hides the hamburger button and shows nav menu on big screens */
 	@media screen and (min-width: 360px) {
 		ul {
 			flex-direction: row;
