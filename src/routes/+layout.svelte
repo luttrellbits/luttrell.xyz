@@ -35,4 +35,7 @@
 		background-color: var(--bg0);
 		color: var(--fg0);
 	}
+	main {
+		margin: 0 2rem;
+	}
 </style>
